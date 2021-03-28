@@ -1,0 +1,39 @@
+/* Components */
+@import "components/top-bar.css";
+@import "components/bottom-bar.css";
+
+/* Screens */
+@import "screens/main-before-login.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@font-face {
+  font-family: "Eulyoo1945-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(242, 237, 215);
+}
+
+.top-bar__column:first-child {
+  font-family: "Lobster", cursive;
+}
+
+.top-bar__column:last-child {
+  font-family: "RIDIBatang";
+}
+
+.main-info-first__column {
+  font-family: "RIDIBatang";
+}
