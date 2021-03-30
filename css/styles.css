@@ -30,10 +30,8 @@ body {
   font-family: "Lobster", cursive;
 }
 
-.top-bar__column:last-child {
-  font-family: "RIDIBatang";
-}
-
-.main-info-first__column {
+.top-bar__column:last-child,
+.main-info-first__column,
+.bottom-bar {
   font-family: "RIDIBatang";
 }
