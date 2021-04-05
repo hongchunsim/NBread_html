@@ -1,10 +1,12 @@
 /* Components */
-@import "components/top-bar.css";
-@import "components/bottom-bar.css";
+@import "components/topBar.css";
+@import "components/bottomBar.css";
 
 /* Screens */
-@import "screens/main-before-login.css";
+@import "screens/mainBeforeLogin.css";
+@import "screens/join.css";
 
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @font-face {
   font-family: "Eulyoo1945-SemiBold";
@@ -23,15 +25,21 @@
 
 body {
   margin: 0;
-  background-color: rgb(242, 237, 215);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top-bar__column:first-child {
   font-family: "Lobster", cursive;
 }
 
-.top-bar__column:last-child,
+.top-bar__column:last-child button,
 .main-info-first__column,
-.bottom-bar {
+.bottom-bar,
+.join__column,
+#join-submit,
+button {
   font-family: "RIDIBatang";
 }

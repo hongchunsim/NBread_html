@@ -1,10 +1,12 @@
-.body {
-  display: flex;
-  overflow: auto;
+.main-before-login__wrap {
+  background-color: rgb(242, 237, 215);
+  width: 100vw;
 }
+
 .main-before-login {
   height: 200vh;
 }
+
 .main-info-first {
   display: flex;
   justify-content: center;
