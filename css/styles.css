@@ -5,6 +5,7 @@
 /* Screens */
 @import "screens/mainBeforeLogin.css";
 @import "screens/join.css";
+@import "screens/login.css";
 
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");

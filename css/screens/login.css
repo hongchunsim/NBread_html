@@ -2,8 +2,8 @@ body {
   background-color: white;
 }
 
-.join {
-  height: 130vh;
+.login {
+  height: 100vh;
   width: 60vw;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@ body {
   background-color: rgba(224, 224, 224, 0.25);
 }
 
-.join__column {
+.login__column {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
@@ -21,44 +21,44 @@ body {
   align-items: center;
 }
 
-.join__column fieldset {
+.login__column fieldset {
   border: none;
   margin: 30px;
 }
 
-.join__column legend {
+.login__column legend {
   font-size: 20px;
 }
 
-.join__column input,
-.join__column select {
+.login__column input,
+.login__column select {
   width: 100%;
   height: 30px;
   border: none;
   border-radius: 10px;
 }
 
-.join__column input {
+.login__column input {
   border: 1px solid rgba(0.5, 0.5, 0.5, 0.2);
 }
 
-.join__column select {
+.login__column select {
   margin-bottom: 10px;
   box-shadow: 0 0 0 1px rgba(0.5, 0.5, 0.5, 0.2);
 }
 
-.join__column input:focus,
-.join__column select:focus {
+.login__column input:focus,
+.login__column select:focus {
   outline: none;
   background-color: rgb(242, 237, 215);
   box-shadow: 0 0 0 2px rgb(117, 81, 57);
 }
 
-.join__column select option {
+.login__column select option {
   border-radius: 10px;
 }
 
-#join-submit {
+#login-submit {
   margin: 30px 0;
   width: 20vw;
   height: 50px;
@@ -67,7 +67,7 @@ body {
   font-size: 16px;
 }
 
-#join-submit:hover {
+#login-submit:hover {
   background-color: rgb(117, 81, 57);
   color: white;
   cursor: pointer;
@@ -78,12 +78,12 @@ hr {
   width: 50vw;
 }
 
-.join__column__other-join {
+.login__column__other-login {
   display: flex;
   flex-direction: column;
 }
 
-.join__column__other-join button {
+.login__column__other-login button {
   margin: 10px 0;
   width: 20vw;
   height: 50px;
@@ -92,21 +92,21 @@ hr {
   font-size: 16px;
 }
 
-.join__column__other-join button:nth-child(2) {
+.login__column__other-login button:nth-child(2) {
   background-color: rgb(224, 224, 224);
 }
 
-.join__column__other-join button:nth-child(2):hover {
+.login__column__other-login button:nth-child(2):hover {
   background-color: white;
   border: 2px solid rgb(224, 224, 224);
   cursor: pointer;
 }
 
-.join__column__other-join button:last-child {
+.login__column__other-login button:last-child {
   background-color: rgb(241, 196, 15);
 }
 
-.join__column__other-join button:last-child:hover {
+.login__column__other-login button:last-child:hover {
   background-color: white;
   border: 2px solid rgb(241, 196, 15);
   cursor: pointer;

@@ -1,59 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <title>NBread 회원가입</title>
+    <title>NBread</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <nav class="top-bar__wrap">
-      <div class="top-bar2">
+      <div class="top-bar">
         <div class="top-bar__column">
           <a href="mainBeforeLogin.html">
             <button>NBread</button>
           </a>
         </div>
         <div class="top-bar__column">
-          <a href="logIn.html">
-            <button>로그인</button>
+          <button>결제</button>
+          <a href="mainBeforeLogin.html">
+            <button>로그아웃</button>
           </a>
-          <a href="join.html">
-            <button>회원가입</button>
+          <a href="myPage.html">
+            <button>마이페이지</button>
           </a>
         </div>
       </div>
     </nav>
 
-    <div class="login">
-      <div class="login__column">
-        <form method="get" id="login__column-form">
-          <fieldset>
-            <legend>아이디</legend>
-            <input name="id" type="text" />
-          </fieldset>
-          <fieldset>
-            <legend>비밀번호</legend>
-            <input name="password" type="password" />
-          </fieldset>
-          <input
-            id="login-submit"
-            name="login-submit"
-            type="submit"
-            value="로그인"
-          />
-        </form>
+    <main class="main-before-login__wrap">
+      <div class="main-before-login">
+        <div class="main-info">
+          <div class="main-info-first">
+            <div class="main-info-first__column">
+              <img src="img/nbread-main2.png" class="main__img" />
+            </div>
+            <div class="main-info-first__column">
+              <div class="main-paragragh">
+                <div class="main-paragragh__column">
+                  <h1 class="main__title">쉽고 빠르게 N빵!</h1>
+                </div>
+                <div class="main-paragragh__column">
+                  <span class="main__text">인원 세고, 가격 보고, 하나하나 계산하기는 이제 지쳤다!</span>
+                </div>
+                <div class="main-paragragh__column">
+                  <span class="main__text">더 쉬운 더치페이 생활을 누려보세요.</span>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
-      <div class="login__column">
-        <hr />
-      </div>
-      <div class="login__column">
-        <fieldset class="login__column__other-login">
-          <legend>다른 서비스 계정으로 로그인</legend>
-          <button>Google</button>
-          <button>Kakao</button>
-        </fieldset>
-      </div>
-    </div>
+    </main>
 
     <footer class="bottom-bar">
       <div class="bottom-bar__column">
@@ -82,5 +77,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="topBar.js"></script>
   </body>
 </html>
